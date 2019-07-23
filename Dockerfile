@@ -3,7 +3,7 @@ FROM jenkins/ssh-slave
 LABEL "org.label-schema.vendor"="OPOTEL Ltd" \
     version="1.0" \
     maintainer="dev@opotel.com" \
-    description="Docker Jenkins Slave; Build, Test and Deploy Node.js projects and build Docker images from Dockerfile"
+    description=""
     
 RUN apt-get update && apt-get upgrade -y   
 RUN dpkg --add-architecture i386 \
