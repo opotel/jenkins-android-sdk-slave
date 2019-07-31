@@ -17,7 +17,7 @@ RUN curl -sL https://deb.nodesource.com/setup_12.x -o nodesource_setup.sh && bas
 RUN apt-get install -y nodejs
 
 # Set up environment variables
-ENV ANDROID_HOME="/home/user/android-sdk-linux" \
+ENV ANDROID_HOME="/opt/android-sdk-linux" \
     SDK_URL="https://dl.google.com/android/repository/sdk-tools-linux-3859397.zip" \
     GRADLE_URL="https://services.gradle.org/distributions/gradle-4.5.1-all.zip"
 
